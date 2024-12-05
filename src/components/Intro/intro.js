@@ -20,7 +20,7 @@ function Intro() {
                     <h1>Shantanu Jana</h1>
                     <h5>Frontend Developer</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde sequi beatae magnam qui aliquid accusantium alias esse! Explicabo, quod veniam temporibus accusamus aspernatur repudiandae.</p>
-                    <Link>Contact Me</Link>
+                    <Link className="blue-button">Contact Me</Link>
                 </div>
             </div>  
             <img className="intro--pic" src={wilmar}/> 

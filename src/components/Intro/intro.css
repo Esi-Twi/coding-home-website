@@ -6,13 +6,17 @@
     max-width: 85vw;
 }
 
-
 .intro--info {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
+.intro--socials {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+}
 
 .intro--socials img {
     width: 1.4rem;
@@ -21,8 +25,27 @@
     margin-bottom: 2rem;
 }
 
+.intro--description small {
+    font-size: 15px;
+}
+
+.intro--description h1 {
+    font-size: 48px;
+    margin: 0.4rem 0 0.2rem 0;
+}
+
+.intro--description h5 {
+    font-size: 18px;
+}
+
+.intro--description p {
+    font-size: 15px;  
+    max-width: 30vw;  
+    margin: 1.2rem 0 1.5rem 0;
+}
+
 .intro--pic {
-    width: 45vw;
+    width: 30vw;
     border-radius: 0.3rem;
     height: 50vh;
 }

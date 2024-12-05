@@ -6,6 +6,11 @@
     margin: 0 auto;
     padding: 0.75rem 5%;
     border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color);
+    z-index: 50;
 }
 
 .navbar h1 {

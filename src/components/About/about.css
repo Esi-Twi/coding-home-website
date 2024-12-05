@@ -1,0 +1,58 @@
+#about {
+    width: 100vw;
+    max-width: 80vw;
+    margin: 0 auto;
+    height: 80vh;
+    padding-top: 1.5rem;
+}
+
+.about--header {
+    text-align: center;
+}
+
+.about--header h1 {
+    font-size: 40px;
+    margin-bottom: 0.2rem;
+}
+
+.about--header p {
+    color: green;
+    font-size: 18px;
+}
+
+.about--info {
+    margin-top: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about--main-img {
+    width: 35vw;
+    height: 45vh;
+    border-radius: 0.4rem;
+}
+
+.about--info-details {
+    max-width: 40vw;
+}
+
+.about--info-details p {
+    line-height: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.about--contact-list {
+    margin-bottom: 1.5rem;
+}
+
+.about--contact-list p {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    margin: 0.8rem 0;
+}
+
+.about--contact-list p img {
+    width: 1.2rem;
+}
