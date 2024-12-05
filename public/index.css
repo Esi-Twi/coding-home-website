@@ -1,0 +1,20 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+.dark-mode {
+    --bg-color: black;
+    --text-color: white;
+}
+
+section {
+    margin: 0 auto;
+    width: 100vw;
+}
